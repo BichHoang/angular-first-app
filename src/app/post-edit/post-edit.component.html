@@ -1,0 +1,16 @@
+<form>
+  <div class="container">
+    <label>Image: </label>
+    <input name="1" type="text" placeholder="img" [(ngModel)]="post.image" >
+
+    <label>Title: </label>
+    <input name="12" type="text" placeholder="title" [(ngModel)]="post.title">
+
+    <label>Content: </label>
+    <input name="13" type="text" placeholder="content" [(ngModel)]="post.content">
+
+    <button  type="submit" (click)="EditPost()">Edit</button>
+
+    <button type="button" class="cancelbtn">Cancel</button>
+  </div>
+</form>

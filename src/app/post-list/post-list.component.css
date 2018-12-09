@@ -1,0 +1,16 @@
+table tr td {
+  border: 1px solid green;
+}
+table {
+  border-collapse: collapse;
+  font-size: 30px;
+  width: 80%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+. post-list {
+  display: flex;
+  flex-wrap: wrap;
+}

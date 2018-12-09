@@ -1,3 +1,8 @@
-<img src="{{post.image}}" />
-<h1>{{post.title}}</h1>
-<p>{{post.content}}</p>
+<div class="post-detail">
+  <img src="{{post.image}}" />
+  <h1>{{post.title}}</h1>
+  <p>{{post.content}}</p>
+  <button routerLink="/postEdit/{{post.id}}">Edit</button>
+  <button (click)="delete()">Delete</button>
+</div>
+
